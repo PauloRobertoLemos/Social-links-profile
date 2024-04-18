@@ -3,71 +3,73 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* estilo do site */
 
 body {
-    background-color: aquamarine;
+    background-color: black;
 }
 
 .box{
-    background-color: #4d4d4d;
-    padding: 60px;
-    margin: 140px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 90px;
+    background-color: #333333;
+    padding: 35px;
+    margin: 130px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
     display: block;
-    border: 2px solid red;
+    border-radius: 10px 10px 10px 10px;
 }
 img {
     display: block;
-    margin-left: 85px;
-    margin-top: -30px;
-    border: 2px solid red;
+    margin-left: 80px;
+    margin-top: -10px;
+    display: inline-block;
+    border-radius: 50%;
 }
 
 /* estilo dos links sociais */
 
 .container-GH{
-    border: 1px solid red;
-    background-color: gray;
+    background-color: #4d4d4d;
     margin-top: 20px;
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .container-FEM{
-    border: 1px solid red;
-    background-color: gray;
+    background-color: #4d4d4d;
     margin-top: -45px;
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .container-L{
-    border: 1px solid red;
-    background-color: gray;
+    background-color: #4d4d4d;
     margin-top: -45px;
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .container-T{
-    border: 1px solid red;
-    background-color: gray;
+    background-color: #4d4d4d;
     margin-top: -45px;
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .container-I{
-    border: 1px solid red;
-    background-color: gray;
+    background-color: #4d4d4d;
     margin-top: -45px;
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /* estilo da fonte/texto */
@@ -76,7 +78,7 @@ h1 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
 }
 
@@ -84,18 +86,43 @@ h2 {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: -27px;
+    margin-top: -28px;
     color: #80ff80;
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 24px;
     color: white;
 }
 
-.container h1 {
-    color: aqua;
+.container-GH h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-FEM h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-L h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-T h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-I h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
